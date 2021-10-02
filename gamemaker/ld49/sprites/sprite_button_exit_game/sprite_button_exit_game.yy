@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 101,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 102,
+  "height": 31,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"620fd5c6-626a-4fdc-8c75-9f548e83f49f","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"620fd5c6-626a-4fdc-8c75-9f548e83f49f","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"LayerId":{"name":"f87faf47-d018-45d5-a087-cc65b120b749","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_button_exit_game","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"resourceVersion":"1.0","name":"620fd5c6-626a-4fdc-8c75-9f548e83f49f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a2d0752-16ed-4f96-957b-ec0e95fdd69d","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a2d0752-16ed-4f96-957b-ec0e95fdd69d","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"LayerId":{"name":"978fc8a1-e06a-4aa0-8653-732e3a371f7f","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_button_exit_game","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"resourceVersion":"1.0","name":"7a2d0752-16ed-4f96-957b-ec0e95fdd69d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprite_button_exit_game","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cb0a69b3-265e-4e71-a8e1-6934235f1252","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"620fd5c6-626a-4fdc-8c75-9f548e83f49f","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8e15b983-827a-49c5-804c-85642bd725f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a2d0752-16ed-4f96-957b-ec0e95fdd69d","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 51,
+    "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprite_button_exit_game","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f87faf47-d018-45d5-a087-cc65b120b749","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"978fc8a1-e06a-4aa0-8653-732e3a371f7f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

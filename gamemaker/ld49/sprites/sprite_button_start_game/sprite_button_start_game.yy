@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 101,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 102,
+  "height": 31,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c6cae670-ab18-4a27-9879-791b9fc3e11e","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c6cae670-ab18-4a27-9879-791b9fc3e11e","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"LayerId":{"name":"01c33a73-e1da-46a7-bfc7-86ffac37293c","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"resourceVersion":"1.0","name":"c6cae670-ab18-4a27-9879-791b9fc3e11e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4cf6a992-361c-49e1-b1eb-d6f9b358acd8","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4cf6a992-361c-49e1-b1eb-d6f9b358acd8","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"LayerId":{"name":"296be591-93e1-4e21-91b7-61f26a121ec3","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"resourceVersion":"1.0","name":"4cf6a992-361c-49e1-b1eb-d6f9b358acd8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e3cbe3f4-c95b-446b-911d-dcb9f69d1aba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6cae670-ab18-4a27-9879-791b9fc3e11e","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c3c57d63-6e57-4174-905f-e0e9aa7231e6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4cf6a992-361c-49e1-b1eb-d6f9b358acd8","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 51,
+    "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"01c33a73-e1da-46a7-bfc7-86ffac37293c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"296be591-93e1-4e21-91b7-61f26a121ec3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
