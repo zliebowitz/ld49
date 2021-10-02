@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "buttons",
-    "path": "folders/Sprites/buttons.yy",
+    "name": "title",
+    "path": "folders/Sprites/title.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_button_start_game",
