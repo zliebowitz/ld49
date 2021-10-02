@@ -53,6 +53,7 @@
     {"id":{"name":"object_pub_patron","path":"objects/object_pub_patron/object_pub_patron.yy",},"order":11,},
     {"id":{"name":"room_village","path":"rooms/room_village/room_village.yy",},"order":3,},
     {"id":{"name":"room_world","path":"rooms/room_world/room_world.yy",},"order":4,},
+    {"id":{"name":"sprite_beethany","path":"sprites/sprite_beethany/sprite_beethany.yy",},"order":2,},
     {"id":{"name":"sprite_avatar_walking_down","path":"sprites/sprite_avatar_walking_down/sprite_avatar_walking_down.yy",},"order":1,},
     {"id":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"order":9,},
     {"id":{"name":"object_talkingman","path":"objects/object_talkingman/object_talkingman.yy",},"order":10,},

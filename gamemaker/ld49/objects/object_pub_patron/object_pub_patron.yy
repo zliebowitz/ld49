@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_npc1",
-    "path": "sprites/sprite_npc1/sprite_npc1.yy",
+    "name": "sprite_beethany",
+    "path": "sprites/sprite_beethany/sprite_beethany.yy",
   },
   "solid": false,
   "visible": true,
