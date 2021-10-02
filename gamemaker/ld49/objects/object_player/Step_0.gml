@@ -28,6 +28,18 @@ else if (object_game_controls.down_pressed)
 	image_xscale = abs(image_xscale);
 	vspeed = 1;
 }
+else if (sprite_index == sprite_avatar_walking_up)
+{
+	sprite_index = sprite_avatar_idle_up;
+}
+else if (sprite_index == sprite_avatar_walking_right)
+{
+	sprite_index = sprite_avatar_idle_right;
+}
+else if (sprite_index == sprite_avatar_walking_down)
+{
+	sprite_index = sprite_avatar_idle_down;
+}
 
 if (object_game_controls.up_pressed && object_game_controls.down_pressed)
 {
