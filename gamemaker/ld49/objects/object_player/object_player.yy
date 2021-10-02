@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_avatar_walking_forward",
-    "path": "sprites/sprite_avatar_walking_forward/sprite_avatar_walking_forward.yy",
+    "name": "sprite_avatar_walking_down",
+    "path": "sprites/sprite_avatar_walking_down/sprite_avatar_walking_down.yy",
   },
   "solid": false,
   "visible": true,

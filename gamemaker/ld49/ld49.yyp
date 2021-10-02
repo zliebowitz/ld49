@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sprite_avatar_walking_right","path":"sprites/sprite_avatar_walking_right/sprite_avatar_walking_right.yy",},"order":0,},
+    {"id":{"name":"sprite_avatar_walking_up","path":"sprites/sprite_avatar_walking_up/sprite_avatar_walking_up.yy",},"order":2,},
     {"id":{"name":"script_play_music","path":"scripts/script_play_music/script_play_music.yy",},"order":2,},
     {"id":{"name":"sprite_title","path":"sprites/sprite_title/sprite_title.yy",},"order":2,},
     {"id":{"name":"script_menu_navigator","path":"scripts/script_menu_navigator/script_menu_navigator.yy",},"order":2,},
@@ -32,7 +33,7 @@
     {"id":{"name":"sprite_heart","path":"sprites/sprite_heart/sprite_heart.yy",},"order":6,},
     {"id":{"name":"object_npc","path":"objects/object_npc/object_npc.yy",},"order":1,},
     {"id":{"name":"sprite_button_selector","path":"sprites/sprite_button_selector/sprite_button_selector.yy",},"order":4,},
-    {"id":{"name":"sprite_avatar_walking_forward","path":"sprites/sprite_avatar_walking_forward/sprite_avatar_walking_forward.yy",},"order":1,},
+    {"id":{"name":"sprite_avatar_walking_down","path":"sprites/sprite_avatar_walking_down/sprite_avatar_walking_down.yy",},"order":1,},
     {"id":{"name":"sprite_pause_menu_background","path":"sprites/sprite_pause_menu_background/sprite_pause_menu_background.yy",},"order":0,},
     {"id":{"name":"object_menu_title_screen","path":"objects/object_menu_title_screen/object_menu_title_screen.yy",},"order":6,},
     {"id":{"name":"sound_sfx_enter_menu","path":"sounds/sound_sfx_enter_menu/sound_sfx_enter_menu.yy",},"order":1,},
