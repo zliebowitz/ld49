@@ -17,6 +17,7 @@
     {"id":{"name":"object_menu_controls","path":"objects/object_menu_controls/object_menu_controls.yy",},"order":0,},
     {"id":{"name":"sprite_dialog","path":"sprites/sprite_dialog/sprite_dialog.yy",},"order":7,},
     {"id":{"name":"room_init","path":"rooms/room_init/room_init.yy",},"order":1,},
+    {"id":{"name":"sorite_grass","path":"sprites/sorite_grass/sorite_grass.yy",},"order":9,},
     {"id":{"name":"object_menu_selector","path":"objects/object_menu_selector/object_menu_selector.yy",},"order":3,},
     {"id":{"name":"object_game_controls","path":"objects/object_game_controls/object_game_controls.yy",},"order":1,},
     {"id":{"name":"sprite_button_exit_game","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"order":1,},
