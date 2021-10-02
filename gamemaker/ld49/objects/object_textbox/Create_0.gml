@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 // Runs init code if in room_init, then destroys itself.
 if (room = room_init)
 {
@@ -10,3 +7,4 @@ if (room = room_init)
 
 currentMessage = "";
 advanceText = true;
+action1_pressed = false;

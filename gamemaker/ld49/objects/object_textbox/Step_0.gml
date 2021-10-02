@@ -1,10 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
-if (keyboard_check_pressed(object_game_controls.action_1_key))
+if (object_game_controls.action_1_pressed && !action1_pressed)
+{
+	action1_pressed = true
 	advanceText = true;
+}
+else if(!object_game_controls.action_1_pressed)
+{
+	action1_pressed = false;
+}
+
 
 if (advanceText)
 {
