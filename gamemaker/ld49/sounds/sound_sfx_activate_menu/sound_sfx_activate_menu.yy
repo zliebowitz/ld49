@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_sfx_activate_menu.wav",
-  "duration": 0.119025,
+  "duration": 0.454626,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",

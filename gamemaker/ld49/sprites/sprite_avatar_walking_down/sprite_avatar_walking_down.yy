@@ -67,7 +67,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 11,
-    "yorigin": 39,
+    "yorigin": 41,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprite_avatar_walking_down","path":"sprites/sprite_avatar_walking_down/sprite_avatar_walking_down.yy",},
