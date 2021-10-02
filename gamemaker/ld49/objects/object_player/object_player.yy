@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_player",
-    "path": "sprites/sprite_player/sprite_player.yy",
+    "name": "sprite_avatar_walking_forward",
+    "path": "sprites/sprite_avatar_walking_forward/sprite_avatar_walking_forward.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
