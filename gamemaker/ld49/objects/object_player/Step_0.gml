@@ -28,3 +28,28 @@ else if (object_game_controls.down_pressed)
 	image_xscale = abs(image_xscale);
 	vspeed = 1;
 }
+
+if (object_game_controls.up_pressed && object_game_controls.down_pressed)
+{
+	if random(1) > 0.5
+		sprite_index = sprite_avatar_walking_up;
+	else
+		sprite_index = sprite_avatar_walking_down;
+	vspeed = round(random(8))-4
+}
+
+// Intentionally buggy controls (up&down / left&right pushed at the same time)
+if (object_game_controls.right_pressed && object_game_controls.left_pressed)
+{
+	if random(1) > 0.5
+	{
+		sprite_index = sprite_avatar_walking_right;
+		image_xscale = abs(image_xscale);
+	}
+	else
+	{
+		sprite_index = sprite_avatar_walking_right;
+		image_xscale = -1 *abs(image_xscale);
+	}
+	hspeed = round(random(8))-4
+}
