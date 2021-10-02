@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprite_button_resume",
+    "path": "sprites/sprite_button_resume/sprite_button_resume.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "object_menu_item",
+    "path": "objects/object_menu_item/object_menu_item.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +33,7 @@
     "path": "folders/Objects/menus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_title_handler",
+  "name": "object_menu_resume",
   "tags": [],
   "resourceType": "GMObject",
 }

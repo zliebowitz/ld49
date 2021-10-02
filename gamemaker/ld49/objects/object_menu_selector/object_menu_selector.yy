@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_button_exit_game",
-    "path": "sprites/sprite_button_exit_game/sprite_button_exit_game.yy",
+    "name": "sprite_button_selector",
+    "path": "sprites/sprite_button_selector/sprite_button_selector.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/menus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_title_exit_game",
+  "name": "object_menu_selector",
   "tags": [],
   "resourceType": "GMObject",
 }

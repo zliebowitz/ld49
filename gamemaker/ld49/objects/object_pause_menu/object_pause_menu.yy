@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprite_button_start_game",
-    "path": "sprites/sprite_button_start_game/sprite_button_start_game.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,19 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "menus",
-    "path": "folders/Objects/menus.yy",
+    "name": "pause_menu",
+    "path": "folders/Objects/pause_menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_title_start_game",
+  "name": "object_pause_menu",
   "tags": [],
   "resourceType": "GMObject",
 }
