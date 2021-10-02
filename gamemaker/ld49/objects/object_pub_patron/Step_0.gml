@@ -19,8 +19,7 @@ if (keyboard_check_pressed(object_game_controls.action_1_key) && distance_to_obj
 	else
 	{
 		ds_queue_enqueue(global.textQueue, "Can't HICCUP HICCUP HICCUP\nhold HICCUP HICCUP HICCUP your drink?");
-	
 	}
-	// TODO: GAME???
+	ds_queue_enqueue(global.textQueue, id);
 	instance_create_depth(0, 0, 20, object_textbox);
 }

@@ -35,3 +35,4 @@ show_target = 1
 run_bar = 1;
 
 action1_pressed = 0;
+allow_cheat = false;
