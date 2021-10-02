@@ -6,6 +6,7 @@ if (object_menu_controls.pause_pressed && !pause_pressed)
 	{
 		instance_deactivate_all(true);
 		instance_activate_object(object_menu_controls);
+		
 
 		var view_width = camera_get_view_width(view_camera[0]);
 		var view_height = camera_get_view_height(view_camera[0]);
@@ -25,19 +26,12 @@ if (object_menu_controls.pause_pressed && !pause_pressed)
 		menu_selector.x = menu_pause_resume.x;
 		menu_selector.y = menu_pause_resume.y;
 		
-		script_menu_init();
-		
+		menu_handler = instance_create_depth(0,0,0, object_menu_handler);
 		
 	}
 	else
 	{
-		
-		with(menu_pause_resume){event_user(object_menu_item.title_item_events.enter)}
-		//instance_destroy(menu_pause_resume);
-		//instance_destroy(menu_pause_title);
-		//instance_destroy(menu_selector);
-		//instance_activate_all()	
-		
+		with(menu_pause_resume){event_user(object_menu_item.title_item_events.enter)}		
 	}
 	
 	pause_pressed = true;
