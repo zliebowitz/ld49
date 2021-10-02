@@ -67,7 +67,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 11,
-    "yorigin": 41,
+    "yorigin": 42,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprite_avatar_walking_right","path":"sprites/sprite_avatar_walking_right/sprite_avatar_walking_right.yy",},
