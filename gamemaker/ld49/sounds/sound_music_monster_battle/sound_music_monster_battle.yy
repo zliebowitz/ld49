@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_music_monster_battle.wav",
-  "duration": 25.6028118,
+  "duration": 28.8032436,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
