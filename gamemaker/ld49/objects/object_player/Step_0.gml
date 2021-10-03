@@ -149,7 +149,7 @@ else
 for (var i = 0; i < instance_number(object_enemy_base); ++i;)
 {
 	var enemy = instance_find(object_enemy_base,i);
-	if(place_meeting(x,y, enemy))
+	if(place_meeting(x,y, enemy) && enemy.object_index != object_enemy_face)
 	{
 		if(state == "attack")
 		{
