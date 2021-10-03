@@ -12,7 +12,10 @@ else if(!object_game_controls.action_1_pressed)
 if (advanceText)
 {
 	if (ds_queue_empty(global.textQueue))
+	{
 		instance_destroy();
+		return;
+	}
 	
 	var val = ds_queue_dequeue(global.textQueue);
 	while (!is_string(val))
