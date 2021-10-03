@@ -27,6 +27,7 @@
     {"id":{"name":"object_menu_handler","path":"objects/object_menu_handler/object_menu_handler.yy",},"order":0,},
     {"id":{"name":"sprite_npc1","path":"sprites/sprite_npc1/sprite_npc1.yy",},"order":0,},
     {"id":{"name":"object_power_bar","path":"objects/object_power_bar/object_power_bar.yy",},"order":11,},
+    {"id":{"name":"room_village_2","path":"rooms/room_village_2/room_village_2.yy",},"order":6,},
     {"id":{"name":"object_menu_controls","path":"objects/object_menu_controls/object_menu_controls.yy",},"order":0,},
     {"id":{"name":"room_pub","path":"rooms/room_pub/room_pub.yy",},"order":5,},
     {"id":{"name":"sprite_dialog","path":"sprites/sprite_dialog/sprite_dialog.yy",},"order":7,},
@@ -39,6 +40,7 @@
     {"id":{"name":"object_game_controls","path":"objects/object_game_controls/object_game_controls.yy",},"order":1,},
     {"id":{"name":"sound_music_monster_battle","path":"sounds/sound_music_monster_battle/sound_music_monster_battle.yy",},"order":2,},
     {"id":{"name":"sound_music_pub","path":"sounds/sound_music_pub/sound_music_pub.yy",},"order":1,},
+    {"id":{"name":"tile_set_2","path":"tilesets/tile_set_2/tile_set_2.yy",},"order":2,},
     {"id":{"name":"sprite_button_exit_game","path":"sprites/sprite_button_exit_game/sprite_button_exit_game.yy",},"order":1,},
     {"id":{"name":"script_menu_init","path":"scripts/script_menu_init/script_menu_init.yy",},"order":1,},
     {"id":{"name":"object_menu_resume","path":"objects/object_menu_resume/object_menu_resume.yy",},"order":5,},
@@ -103,6 +105,7 @@
     {"roomId":{"name":"room_village","path":"rooms/room_village/room_village.yy",},},
     {"roomId":{"name":"room_world","path":"rooms/room_world/room_world.yy",},},
     {"roomId":{"name":"room_pub","path":"rooms/room_pub/room_pub.yy",},},
+    {"roomId":{"name":"room_village_2","path":"rooms/room_village_2/room_village_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
