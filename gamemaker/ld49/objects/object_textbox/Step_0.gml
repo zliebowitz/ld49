@@ -15,7 +15,7 @@ if (advanceText)
 	while (!is_string(val))
 	{
 		// allow performan an action at end of dialogue.
-		event_perform_object(val, ev_user12, 0);
+		with(val){event_user(12)}
 		if (ds_queue_empty(global.textQueue))
 		{
 			instance_destroy();
