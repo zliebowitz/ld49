@@ -94,7 +94,7 @@
     {"id":{"name":"object_music_pub","path":"objects/object_music_pub/object_music_pub.yy",},"order":3,},
     {"id":{"name":"object_menu_title_screen","path":"objects/object_menu_title_screen/object_menu_title_screen.yy",},"order":6,},
     {"id":{"name":"sprite_shop_item","path":"sprites/sprite_shop_item/sprite_shop_item.yy",},"order":1,},
-    {"id":{"name":"sprite_water","path":"sprites/sprite_water/sprite_water.yy",},"order":16,},
+    {"id":{"name":"sprite_tile_set_water","path":"sprites/sprite_tile_set_water/sprite_tile_set_water.yy",},"order":2,},
     {"id":{"name":"sound_sfx_enter_menu","path":"sounds/sound_sfx_enter_menu/sound_sfx_enter_menu.yy",},"order":1,},
     {"id":{"name":"room_title","path":"rooms/room_title/room_title.yy",},"order":2,},
     {"id":{"name":"script_menu_submit","path":"scripts/script_menu_submit/script_menu_submit.yy",},"order":3,},
