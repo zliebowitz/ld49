@@ -14,6 +14,7 @@ target_y = 0;
 
 move_speed = .5;
 wander_frames = 100;
-
+has_glitched = false;
+faceless_enemy_sprite = sprite_enemy_red_faceless;
 
 

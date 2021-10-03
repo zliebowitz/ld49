@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 if(state == "idle")
 {
 	if(enemy_ai_type == enemy_ai_types.seek)
@@ -22,14 +24,8 @@ else if(state == "wander")
 	var direction_x = sign(target_x);
 	var direction_y = sign(target_y);
 
-	if (!place_meeting(x + direction_x*move_speed, y, object_fence))
-	{
-		x += (direction_x*move_speed);
-	}
-	if (!place_meeting(x, y + direction_x*move_speed, object_fence))
-	{
-		y += (direction_y*move_speed);
-	}
+	x += (direction_x*move_speed);
+	y += (direction_y*move_speed);
 
 
 	if(direction_x)
@@ -59,23 +55,4 @@ else if(state == "move")
 	alarm[0]=20;
 
 }
-else if (state == "knockback")
-{
-	
-	target_x = object_player.x-x;
-	target_y = object_player.y-y;
 
-	var direction_x = sign(target_x)*-1;
-	var direction_y = sign(target_y)*-1;
-
-	x += (direction_x*move_speed*5);
-	y += (direction_y*move_speed*5);
-}
-
-
-if (place_meeting(x, y, object_fence) && !has_glitched)
-{
-	has_glitched = true;
-	sprite_index = faceless_enemy_sprite;
-	instance_create_depth(x, y, -50, object_enemy_face);
-}

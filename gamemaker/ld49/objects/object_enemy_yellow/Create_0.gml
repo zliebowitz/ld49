@@ -8,3 +8,4 @@ enemy_ai_type = enemy_ai_types.wander;
 
 move_speed = 1;
 wander_frames = 20;
+faceless_enemy_sprite = sprite_enemy_yellow_faceless;
