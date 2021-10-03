@@ -1,5 +1,5 @@
 // Creates a textbox if: action 1 is pressed while touching the npc, and no textbox currently exists.
-if ((object_game_controls.action_1_pressed && !action1_pressed) && place_meeting(x, y, object_player)
+if ((object_game_controls.action_1_pressed && !action1_pressed) && distance_to_object(object_player) < 5
 	&& !instance_exists(object_textbox))
 {
 	ds_queue_enqueue(global.textQueue, "Well howdy there, partner!")

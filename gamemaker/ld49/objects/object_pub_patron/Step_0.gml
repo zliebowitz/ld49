@@ -4,7 +4,7 @@
 // Creates a textbox if: action 1 is pressed while touching the npc, and no textbox currently exists.
 frame += 1;
 frame %= 4; 
-if (keyboard_check_pressed(object_game_controls.action_1_key) && distance_to_object(object_player) < 5
+if (object_game_controls.action_1_pressed && distance_to_object(object_player) < 5
 	&& !instance_exists(object_textbox) && alarm[0] == -1 && !global.pub_beaten)
 {
 	var challenges = global.pub_challenges++;
