@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_music_pub.wav",
-  "duration": 21.3343544,
+  "duration": 21.33399,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
