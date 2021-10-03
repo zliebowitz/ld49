@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_pause_menu","path":"objects/object_pause_menu/object_pause_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-24.0,"y":0.0,"resourceVersion":"1.0","name":"inst_593E640_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"object_enemy","path":"objects/object_enemy/object_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":192.0,"resourceVersion":"1.0","name":"inst_4DB456F8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_player","path":"objects/object_player/object_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":248.0,"y":144.0,"resourceVersion":"1.0","name":"inst_627C5AFA_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"target_room","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"room_world","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -64,7 +63,6 @@
     {"name":"inst_5F3184BA","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_24680283","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_1C557AC8","path":"rooms/room_village/room_village.yy",},
-    {"name":"inst_4DB456F8","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_2170933","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_4A0D8473","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_34C4A66E","path":"rooms/room_village/room_village.yy",},

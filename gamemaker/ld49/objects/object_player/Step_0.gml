@@ -143,3 +143,27 @@ else
 	}
 	
 }
+
+//Check for collision.
+
+for (var i = 0; i < instance_number(object_enemy_base); ++i;)
+{
+	var enemy = instance_find(object_enemy_base,i);
+	if(place_meeting(x,y, enemy))
+	{
+		if(state == "attack")
+		{
+			with(enemy){event_user(0)}
+		}
+		else if(state != "knockback")
+		{
+			state = "init_knockback";
+			var player_target_x = enemy.x - x;
+			var player_target_y = enemy.y - y;
+
+			knockback_direction_x = sign(player_target_x)*-1;
+			knockback_direction_y = sign(player_target_y)*-1;
+
+		}
+	}
+}
