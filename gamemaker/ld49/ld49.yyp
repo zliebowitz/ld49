@@ -16,6 +16,7 @@
     {"id":{"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"order":0,},
     {"id":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"order":0,},
     {"id":{"name":"sprite_enemy_red","path":"sprites/sprite_enemy_red/sprite_enemy_red.yy",},"order":1,},
+    {"id":{"name":"room_shop","path":"rooms/room_shop/room_shop.yy",},"order":7,},
     {"id":{"name":"sprite_beethany_drink","path":"sprites/sprite_beethany_drink/sprite_beethany_drink.yy",},"order":3,},
     {"id":{"name":"object_pause_menu","path":"objects/object_pause_menu/object_pause_menu.yy",},"order":0,},
     {"id":{"name":"object_music_player","path":"objects/object_music_player/object_music_player.yy",},"order":0,},
@@ -111,6 +112,7 @@
     {"roomId":{"name":"room_world","path":"rooms/room_world/room_world.yy",},},
     {"roomId":{"name":"room_pub","path":"rooms/room_pub/room_pub.yy",},},
     {"roomId":{"name":"room_village_2","path":"rooms/room_village_2/room_village_2.yy",},},
+    {"roomId":{"name":"room_shop","path":"rooms/room_shop/room_shop.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
