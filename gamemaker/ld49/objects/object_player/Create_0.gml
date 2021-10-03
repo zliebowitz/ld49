@@ -6,3 +6,7 @@ if (variable_global_exists("warp"))
 	x = global.target_x;
 	y = global.target_y;
 }
+
+
+state = "idle";
+init_image_speed = image_speed;

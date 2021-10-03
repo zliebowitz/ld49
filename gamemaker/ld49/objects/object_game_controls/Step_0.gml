@@ -74,6 +74,8 @@ if (global.controller_id != -1)
 	
 	// See if the A button was pressed.
 	action_1_pressed = gamepad_button_check(global.controller_id, gp_face1);
+	
+	action_2_pressed =  gamepad_button_check(global.controller_id, gp_face2);
 }
 
 if (keyboard_check(left_key))
