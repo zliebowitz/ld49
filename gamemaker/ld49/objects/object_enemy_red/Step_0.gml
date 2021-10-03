@@ -11,7 +11,7 @@ if(state == "idle")
 		state = "init_wander";	
 	}
 }
-else if(state = "init_wander")
+else if(state == "init_wander")
 {
 	target_x = random(room_width)-x;
 	target_y = random(room_height)-y;
