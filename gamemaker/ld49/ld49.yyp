@@ -61,6 +61,7 @@
     {"id":{"name":"sprite_tile_set_0","path":"sprites/sprite_tile_set_0/sprite_tile_set_0.yy",},"order":0,},
     {"id":{"name":"sound_music_drinking_game","path":"sounds/sound_music_drinking_game/sound_music_drinking_game.yy",},"order":3,},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":0,},
+    {"id":{"name":"entrance_light","path":"sprites/entrance_light/entrance_light.yy",},"order":18,},
     {"id":{"name":"sprite_stone","path":"sprites/sprite_stone/sprite_stone.yy",},"order":15,},
     {"id":{"name":"sequence_pause_menu","path":"sequences/sequence_pause_menu/sequence_pause_menu.yy",},"order":0,},
     {"id":{"name":"sound_sfx_activate_menu","path":"sounds/sound_sfx_activate_menu/sound_sfx_activate_menu.yy",},"order":0,},
