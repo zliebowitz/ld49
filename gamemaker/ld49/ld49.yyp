@@ -22,6 +22,7 @@
     {"id":{"name":"sprite_avatar_idle_down","path":"sprites/sprite_avatar_idle_down/sprite_avatar_idle_down.yy",},"order":5,},
     {"id":{"name":"object_enemy_blue","path":"objects/object_enemy_blue/object_enemy_blue.yy",},"order":2,},
     {"id":{"name":"object_menu_exit_game","path":"objects/object_menu_exit_game/object_menu_exit_game.yy",},"order":2,},
+    {"id":{"name":"sprite_beethany_bug","path":"sprites/sprite_beethany_bug/sprite_beethany_bug.yy",},"order":4,},
     {"id":{"name":"object_enemy_red","path":"objects/object_enemy_red/object_enemy_red.yy",},"order":0,},
     {"id":{"name":"sprite_avatar_attacking_right","path":"sprites/sprite_avatar_attacking_right/sprite_avatar_attacking_right.yy",},"order":7,},
     {"id":{"name":"object_menu_handler","path":"objects/object_menu_handler/object_menu_handler.yy",},"order":0,},

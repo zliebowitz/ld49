@@ -32,28 +32,15 @@ else if(state == "wander")
 	}
 
 
-	if(abs(target_x) >= abs(target_y))
+	if(direction_x)
 	{
-		if(direction_x)
-		{
-			image_index =0;	
-		}
-		else
-		{
-			image_index =2;	
-		}
+		image_xscale = 1;	
 	}
 	else
 	{
-		if(direction_y)
-		{
-			image_index =3;	
-		}
-		else
-		{
-			image_index =1;	
-		}
+		image_xscale = -1;	
 	}
+
 }
 else if(state == "move")
 {

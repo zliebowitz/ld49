@@ -9,7 +9,19 @@ else
 	sprite_index = sprite_beethany;
 }
 
-if (!global.pub_beaten || frame < 2)
+if (global.pub_beaten)
 {
-	draw_self();
+	audio_stop_all();
+	sprite_index = sprite_beethany_bug;
+	if (random(1) < .25)
+	{
+		bug_index = floor(random(10));
+		if (bug_index > 7)
+			bug_index = 0;
+	}
+	image_index = bug_index
+	
 }
+
+
+draw_self();
