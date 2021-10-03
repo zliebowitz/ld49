@@ -1,5 +1,3 @@
-
-
 if(state == "idle")
 {
 	if(enemy_ai_type == enemy_ai_types.seek)
@@ -24,9 +22,14 @@ else if(state == "wander")
 	var direction_x = sign(target_x);
 	var direction_y = sign(target_y);
 
-
-	x += (direction_x*move_speed);
-	y += (direction_y*move_speed);
+	if (!place_meeting(x + direction_x*move_speed, y, object_fence))
+	{
+		x += (direction_x*move_speed);
+	}
+	if (!place_meeting(x, y + direction_x*move_speed, object_fence))
+	{
+		y += (direction_y*move_speed);
+	}
 
 
 	if(abs(target_x) >= abs(target_y))
