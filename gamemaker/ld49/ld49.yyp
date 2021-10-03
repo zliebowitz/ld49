@@ -12,6 +12,7 @@
     {"id":{"name":"object_menu_item","path":"objects/object_menu_item/object_menu_item.yy",},"order":4,},
     {"id":{"name":"script_menu_first","path":"scripts/script_menu_first/script_menu_first.yy",},"order":0,},
     {"id":{"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"order":0,},
+    {"id":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"order":0,},
     {"id":{"name":"sprite_enemy","path":"sprites/sprite_enemy/sprite_enemy.yy",},"order":0,},
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},"order":3,},
     {"id":{"name":"object_pause_menu","path":"objects/object_pause_menu/object_pause_menu.yy",},"order":0,},
@@ -53,6 +54,7 @@
     {"id":{"name":"sound_sfx_activate_menu","path":"sounds/sound_sfx_activate_menu/sound_sfx_activate_menu.yy",},"order":0,},
     {"id":{"name":"object_music_title","path":"objects/object_music_title/object_music_title.yy",},"order":1,},
     {"id":{"name":"sprite_heart","path":"sprites/sprite_heart/sprite_heart.yy",},"order":5,},
+    {"id":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"order":1,},
     {"id":{"name":"object_npc","path":"objects/object_npc/object_npc.yy",},"order":1,},
     {"id":{"name":"tile_set_0","path":"tilesets/tile_set_0/tile_set_0.yy",},"order":0,},
     {"id":{"name":"sprite_button_selector","path":"sprites/sprite_button_selector/sprite_button_selector.yy",},"order":4,},
@@ -124,6 +126,7 @@
     {"folderPath":"folders/Sprites/tile_sets.yy","order":13,"resourceVersion":"1.0","name":"tile_sets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/enemies.yy","order":12,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemies.yy","order":14,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/transitions.yy","order":13,"resourceVersion":"1.0","name":"transitions","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

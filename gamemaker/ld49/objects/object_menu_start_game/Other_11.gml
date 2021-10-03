@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto_next();
+object_fade_out.room_id = room_next(room);
 

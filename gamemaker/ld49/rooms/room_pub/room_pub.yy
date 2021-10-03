@@ -23,6 +23,8 @@
           ],"isDnd":false,"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":216.0,"y":192.0,"resourceVersion":"1.0","name":"inst_447876FA_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_pub_patron","path":"objects/object_pub_patron/object_pub_patron.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":336.0,"y":144.0,"resourceVersion":"1.0","name":"inst_1407DD67","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_music_pub","path":"objects/object_music_pub/object_music_pub.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-24.0,"y":16.0,"resourceVersion":"1.0","name":"inst_5709C35F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":520.0,"y":112.0,"resourceVersion":"1.0","name":"inst_48AFD348","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":560.0,"y":112.0,"resourceVersion":"1.0","name":"inst_136A11C4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sprite_avatar_relaxed","path":"sprites/sprite_avatar_relaxed/sprite_avatar_relaxed.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":131.0,"resourceVersion":"1.0","name":"graphic_17DB2BD2","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -56,6 +58,8 @@
     {"name":"inst_447876FA_1","path":"rooms/room_pub/room_pub.yy",},
     {"name":"inst_1407DD67","path":"rooms/room_pub/room_pub.yy",},
     {"name":"inst_5709C35F","path":"rooms/room_pub/room_pub.yy",},
+    {"name":"inst_48AFD348","path":"rooms/room_pub/room_pub.yy",},
+    {"name":"inst_136A11C4","path":"rooms/room_pub/room_pub.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

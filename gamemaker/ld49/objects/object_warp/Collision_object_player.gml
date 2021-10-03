@@ -3,4 +3,4 @@
 global.warp = true;
 global.target_x = target_x;
 global.target_y = target_y;
-room_goto(target_room);
+object_fade_out.room_id = target_room;

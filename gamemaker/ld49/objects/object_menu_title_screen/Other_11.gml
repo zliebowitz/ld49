@@ -8,5 +8,5 @@ event_inherited();
 // Need to reactivate persistant objects
 instance_activate_all();
 
-room_goto(room_title);
+object_fade_out.room_id = room_title;
 
