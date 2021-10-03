@@ -10,3 +10,6 @@ if (variable_global_exists("warp"))
 
 state = "idle";
 init_image_speed = image_speed;
+
+knockback_direction_x = 0;
+knockback_direction_y = 0;

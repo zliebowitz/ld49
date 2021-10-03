@@ -40,6 +40,7 @@
     {"id":{"name":"script_menu_init","path":"scripts/script_menu_init/script_menu_init.yy",},"order":1,},
     {"id":{"name":"object_menu_resume","path":"objects/object_menu_resume/object_menu_resume.yy",},"order":5,},
     {"id":{"name":"object_music_monster_battle","path":"objects/object_music_monster_battle/object_music_monster_battle.yy",},"order":4,},
+    {"id":{"name":"script_player_direction","path":"scripts/script_player_direction/script_player_direction.yy",},"order":0,},
     {"id":{"name":"sprite_avatar_relaxed","path":"sprites/sprite_avatar_relaxed/sprite_avatar_relaxed.yy",},"order":6,},
     {"id":{"name":"object_textbox","path":"objects/object_textbox/object_textbox.yy",},"order":9,},
     {"id":{"name":"sprite_textbox","path":"sprites/sprite_textbox/sprite_textbox.yy",},"order":9,},
@@ -128,7 +129,11 @@
     {"folderPath":"folders/Sprites/tile_sets.yy","order":13,"resourceVersion":"1.0","name":"tile_sets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/enemies.yy","order":12,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemies.yy","order":14,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
+<<<<<<< HEAD
     {"folderPath":"folders/Objects/transitions.yy","order":13,"resourceVersion":"1.0","name":"transitions","tags":[],"resourceType":"GMFolder",},
+=======
+    {"folderPath":"folders/Scripts/player.yy","order":4,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMFolder",},
+>>>>>>> ab1e89b (initial player knockback and combat interaction.)
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

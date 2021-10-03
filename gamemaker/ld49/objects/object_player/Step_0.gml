@@ -4,31 +4,60 @@
 hspeed = 0;
 vspeed = 0;
 
-
-if(state == "attack")
+if(state == "init_knockback")
 {
-	if (sprite_index == sprite_avatar_walking_up || 
-		sprite_index == sprite_avatar_idle_up)
+	if (script_player_direction_up())
+	{
+		sprite_index = sprite_avatar_idle_up;
+	}
+	else if (script_player_direction_right() || script_player_direction_left())
+	{
+		sprite_index = sprite_avatar_idle_right;
+	}
+	else if (script_player_direction_down())
+	{
+		sprite_index = sprite_avatar_idle_down;
+	}
+	
+	alarm[1] = 5;
+	hspeed = 5*knockback_direction_x;
+	vspeed = 5*knockback_direction_y;
+	
+	state = "knockback";
+	
+}
+else if( state == "knockback")
+{
+	hspeed = 5*knockback_direction_x;
+	vspeed = 5*knockback_direction_y;	
+}
+else if(state == "init_attack")
+{
+	
+	if (script_player_direction_up())
 	{
 		sprite_index = sprite_avatar_attacking_up;
 		image_index= 0;
 	}
-	else if (sprite_index == sprite_avatar_walking_right || 
-		sprite_index == sprite_avatar_idle_right)
+	else if (script_player_direction_right() || script_player_direction_left())
 	{
 		sprite_index = sprite_avatar_attacking_right;
 		image_index = 0;
 	}
-	else if (sprite_index == sprite_avatar_walking_down|| 
-		sprite_index == sprite_avatar_idle_down)
+	else if (script_player_direction_down())
 	{
 		sprite_index = sprite_avatar_attacking_down;
 		image_index = 0;
 	}
 		
+	state = "attack"
 	
 }
-else 
+else if (state == "attack")
+{
+	// do nothing for now.
+}
+else
 {
 	if (object_game_controls.up_pressed)
 	{
@@ -58,26 +87,22 @@ else
 		vspeed = 1;
 		state = "walk";
 	}
-	else if (sprite_index == sprite_avatar_walking_up || 
-		sprite_index == sprite_avatar_attacking_up)
+	else if (script_player_direction_up())
 	{
 		sprite_index = sprite_avatar_idle_up;
 		state = "idle";
 	}
-	else if (sprite_index == sprite_avatar_walking_right || 
-		sprite_index == sprite_avatar_attacking_right)
+	else if (script_player_direction_right() || script_player_direction_left())
 	{
 		sprite_index = sprite_avatar_idle_right;
 		state = "idle";
 	}
-	else if (sprite_index == sprite_avatar_walking_down || 
-		sprite_index == sprite_avatar_attacking_down)
+	else if (script_player_direction_down())
 	{
 		sprite_index = sprite_avatar_idle_down;
 		state = "idle"
 	}
 	
-
 	// Intentionally buggy controls (up&down / left&right pushed at the same time)
 	if (object_game_controls.up_pressed && object_game_controls.down_pressed)
 	{
@@ -114,7 +139,7 @@ else
 	//check for attack button.
 	if (object_game_controls.action_2_pressed)
 	{
-		state = "attack"
+		state = "init_attack"
 	}
 	
 }

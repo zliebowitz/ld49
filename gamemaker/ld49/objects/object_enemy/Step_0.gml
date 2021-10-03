@@ -49,6 +49,19 @@ else if (state == "knockback")
 
 if(place_meeting(x,y, object_player))
 {
-	state = "knockback"
-	alarm[0]=10;
+	if(object_player.state == "attack")
+	{
+		state = "knockback"
+		alarm[0]=10;
+	}
+	else if(object_player.state != "knockback")
+	{
+		object_player.state = "init_knockback";
+		var player_target_x = x - object_player.x;
+		var player_target_y = y - object_player.y;
+
+		object_player.knockback_direction_x = sign(player_target_x)*-1;
+		object_player.knockback_direction_y = sign(player_target_y)*-1;
+
+	}
 }
