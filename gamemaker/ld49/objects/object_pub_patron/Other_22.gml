@@ -3,4 +3,7 @@
 power_bar = instance_create_depth(x, y, depth, object_power_bar);
 power_bar.power_increment = .15;
 power_bar.allow_cheat = true;
-alarm[0] = 5 * room_speed;
+var sound = sound_music_drinking_game;
+alarm[0] = audio_sound_length(sound) * room_speed;
+audio_pause_all();
+track = audio_play_sound(sound, 0, false);

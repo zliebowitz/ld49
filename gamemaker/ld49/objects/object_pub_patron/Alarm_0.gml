@@ -8,3 +8,6 @@ if (power_bar.power_percent > power_bar.target_percent)
 }
 instance_destroy(power_bar);
 delete power_bar;
+audio_destroy_stream(track);
+delete track;
+audio_resume_all();
