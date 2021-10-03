@@ -129,11 +129,8 @@
     {"folderPath":"folders/Sprites/tile_sets.yy","order":13,"resourceVersion":"1.0","name":"tile_sets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/enemies.yy","order":12,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemies.yy","order":14,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
-<<<<<<< HEAD
     {"folderPath":"folders/Objects/transitions.yy","order":13,"resourceVersion":"1.0","name":"transitions","tags":[],"resourceType":"GMFolder",},
-=======
     {"folderPath":"folders/Scripts/player.yy","order":4,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMFolder",},
->>>>>>> ab1e89b (initial player knockback and combat interaction.)
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
