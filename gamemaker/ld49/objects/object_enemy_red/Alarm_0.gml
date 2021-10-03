@@ -1,1 +1,1 @@
-state = "move"
+state = "idle"
