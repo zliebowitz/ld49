@@ -14,6 +14,7 @@
     {"id":{"name":"sprite_button_start_game","path":"sprites/sprite_button_start_game/sprite_button_start_game.yy",},"order":0,},
     {"id":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"order":0,},
     {"id":{"name":"sprite_enemy","path":"sprites/sprite_enemy/sprite_enemy.yy",},"order":0,},
+    {"id":{"name":"sprite_beethany_drink","path":"sprites/sprite_beethany_drink/sprite_beethany_drink.yy",},"order":3,},
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},"order":3,},
     {"id":{"name":"object_pause_menu","path":"objects/object_pause_menu/object_pause_menu.yy",},"order":0,},
     {"id":{"name":"object_music_player","path":"objects/object_music_player/object_music_player.yy",},"order":0,},
