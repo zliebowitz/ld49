@@ -52,7 +52,7 @@ if(bar_type == bar_types.versus)
 }
 
 //Testing it out.
-if (object_game_controls.action_1_pressed && (allow_cheat || action_1_pressed))
+if (object_game_controls.action_1_pressed && (allow_cheat || action1_pressed))
 {
 	action1_pressed = true
 	event_user(0);
