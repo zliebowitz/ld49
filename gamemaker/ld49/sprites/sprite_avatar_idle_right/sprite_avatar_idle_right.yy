@@ -63,7 +63,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 11,
-    "yorigin": 42,
+    "yorigin": 43,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprite_avatar_idle_right","path":"sprites/sprite_avatar_idle_right/sprite_avatar_idle_right.yy",},
