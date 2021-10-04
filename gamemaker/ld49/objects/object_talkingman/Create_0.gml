@@ -11,3 +11,4 @@ if(global.fish_beaten)
 	event_user(0);
 }
 
+image_speed = image_speed/4;
