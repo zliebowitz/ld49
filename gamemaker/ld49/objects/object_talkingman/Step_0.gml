@@ -3,13 +3,13 @@ if ((object_game_controls.action_1_pressed && !action1_pressed) && distance_to_o
 	&& !instance_exists(object_textbox)
 	&& !dialog_running)
 {
-	ds_queue_enqueue(global.textQueue, "Well howdy there, partner!")
-	ds_queue_enqueue(global.textQueue, "Y'all reck'n this foundangled textbox be \nworking?")
-	ds_queue_enqueue(global.textQueue, "|||||||||||||||||||| ||||||||||||||||||||")
-	ds_queue_enqueue(global.textQueue, "00000000000000000000 00000000000000000000")
-	ds_queue_enqueue(global.textQueue, "Yaaaaas. It doesssss.")
-	ds_queue_enqueue(global.textQueue, id);
-	instance_create_depth(0, 0, 20, object_textbox)
+	var textbox = instance_create_depth(0, 0, 20, object_textbox);
+	ds_queue_enqueue(textbox.textQueue, "Well howdy there, partner!")
+	ds_queue_enqueue(textbox.textQueue, "Y'all reck'n this foundangled textbox be \nworking?")
+	ds_queue_enqueue(textbox.textQueue, "|||||||||||||||||||| ||||||||||||||||||||")
+	ds_queue_enqueue(textbox.textQueue, "00000000000000000000 00000000000000000000")
+	ds_queue_enqueue(textbox.textQueue, "Yaaaaas. It doesssss.")
+	ds_queue_enqueue(textbox.textQueue, id);
 	dialog_running = true;
 }
 else if(!object_game_controls.action_1_pressed)

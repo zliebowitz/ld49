@@ -11,23 +11,23 @@ else if(!object_game_controls.action_1_pressed)
 
 if (advanceText)
 {
-	if (ds_queue_empty(global.textQueue))
+	if (ds_queue_empty(textQueue))
 	{
 		instance_destroy();
 		return;
 	}
 	
-	var val = ds_queue_dequeue(global.textQueue);
+	var val = ds_queue_dequeue(textQueue);
 	while (!is_string(val))
 	{
 		// allow performan an action at end of dialogue.
 		with(val){event_user(12)}
-		if (ds_queue_empty(global.textQueue))
+		if (ds_queue_empty(textQueue))
 		{
 			instance_destroy();
 			return;
 		}
-		val = ds_queue_dequeue(global.textQueue);
+		val = ds_queue_dequeue(textQueue);
 	}
 	currentMessage = val;
 	advanceText = false;

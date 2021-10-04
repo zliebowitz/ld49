@@ -4,6 +4,6 @@
 if (object_game_controls.action_1_pressed && distance_to_object(object_player) < 5
 	&& !instance_exists(object_textbox))
 {
-	ds_queue_enqueue(global.textQueue, text);
-	instance_create_depth(0, 0, 20, object_textbox);
+	var textbox = instance_create_depth(0, 0, 20, object_textbox);
+	ds_queue_enqueue(textbox.textQueue, text);
 }
