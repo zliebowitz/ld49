@@ -19,7 +19,7 @@ if(bar_animate)
 		case bar_states.grow:
 			if(power_percent < 100)
 			{
-				power_percent = power_percent + 1;
+				power_percent = power_percent + power_increment;
 			}
 			else
 			{
@@ -29,7 +29,7 @@ if(bar_animate)
 		case bar_states.shrink:
 		if(power_percent > 0)
 			{
-				power_percent = power_percent - 1;
+				power_percent = power_percent - power_increment;
 			}
 			else
 			{
