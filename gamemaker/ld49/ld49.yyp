@@ -102,6 +102,7 @@
     {"id":{"name":"sprite_button_selector","path":"sprites/sprite_button_selector/sprite_button_selector.yy",},"order":4,},
     {"id":{"name":"object_pub_patron","path":"objects/object_pub_patron/object_pub_patron.yy",},"order":11,},
     {"id":{"name":"room_village","path":"rooms/room_village/room_village.yy",},"order":3,},
+    {"id":{"name":"sequence_jump_scare","path":"sequences/sequence_jump_scare/sequence_jump_scare.yy",},"order":1,},
     {"id":{"name":"sound_music_village","path":"sounds/sound_music_village/sound_music_village.yy",},"order":6,},
     {"id":{"name":"room_world","path":"rooms/room_world/room_world.yy",},"order":4,},
     {"id":{"name":"tile_set_3","path":"tilesets/tile_set_3/tile_set_3.yy",},"order":4,},
