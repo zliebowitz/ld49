@@ -24,7 +24,6 @@ if (object_game_controls.action_1_pressed
 		
 	}
 	action_1pressed = true;
-	alarm[0] = 10;
 }
 else if(!object_game_controls.action_1_pressed 
 	&& action_1pressed)

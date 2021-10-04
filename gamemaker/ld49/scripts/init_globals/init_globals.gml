@@ -12,6 +12,5 @@ function init_globals(){
 	global.bugs_y = [];
 	
 	//Money
-	global.money = 100;
 	global.bill = 0;
 }

@@ -1,5 +1,5 @@
 
-var text = "$" + string(global.money) + ".00";
+var text = "$000.00";
 
 draw_set_color(c_black);
 var x1 = room_width - string_width(text) - 15;

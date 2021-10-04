@@ -1,1 +1,1 @@
-price = 10;
+price = 50;
