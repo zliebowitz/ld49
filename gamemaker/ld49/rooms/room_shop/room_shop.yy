@@ -23,6 +23,11 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"object_game_controls","path":"objects/object_game_controls/object_game_controls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":339.0,"y":-15.0,"resourceVersion":"1.0","name":"inst_5D398CCD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_menu_controls","path":"objects/object_menu_controls/object_menu_controls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":358.0,"y":-14.0,"resourceVersion":"1.0","name":"inst_706175E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_player","path":"objects/object_player/object_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":264.0,"y":206.0,"resourceVersion":"1.0","name":"inst_438168EF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"target_room","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"room_village","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"target_x","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"240","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"target_y","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"45","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":310.0,"y":175.0,"resourceVersion":"1.0","name":"inst_6FE2386","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":1,"gridY":1,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sprite_shop_podium","path":"sprites/sprite_shop_podium/sprite_shop_podium.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":194.0,"y":114.0,"resourceVersion":"1.0","name":"graphic_77375178","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -62,6 +67,7 @@
     {"name":"inst_5D398CCD","path":"rooms/room_shop/room_shop.yy",},
     {"name":"inst_706175E","path":"rooms/room_shop/room_shop.yy",},
     {"name":"inst_438168EF","path":"rooms/room_shop/room_shop.yy",},
+    {"name":"inst_6FE2386","path":"rooms/room_shop/room_shop.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
