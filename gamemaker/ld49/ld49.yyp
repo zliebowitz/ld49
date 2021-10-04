@@ -87,6 +87,7 @@
     {"id":{"name":"sprite_avatar_fishing","path":"sprites/sprite_avatar_fishing/sprite_avatar_fishing.yy",},"order":10,},
     {"id":{"name":"sprite_textbox","path":"sprites/sprite_textbox/sprite_textbox.yy",},"order":9,},
     {"id":{"name":"sprite_button_resume","path":"sprites/sprite_button_resume/sprite_button_resume.yy",},"order":2,},
+    {"id":{"name":"sound_sfx_purchase","path":"sounds/sound_sfx_purchase/sound_sfx_purchase.yy",},"order":7,},
     {"id":{"name":"sound_music_jump_scare","path":"sounds/sound_music_jump_scare/sound_music_jump_scare.yy",},"order":7,},
     {"id":{"name":"sound_music_title","path":"sounds/sound_music_title/sound_music_title.yy",},"order":0,},
     {"id":{"name":"sound_sfx_static","path":"sounds/sound_sfx_static/sound_sfx_static.yy",},"order":3,},

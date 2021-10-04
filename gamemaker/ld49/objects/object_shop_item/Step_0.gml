@@ -12,7 +12,7 @@ if(state = "done")
 
 
 if (object_game_controls.action_1_pressed 
-	&& distance_to_object(object_player) < 5
+	&& distance_to_object(object_player) < 8
 	&& !action_1pressed)
 {
 	global.bill += price;
@@ -24,6 +24,7 @@ if (object_game_controls.action_1_pressed
 		
 	}
 	action_1pressed = true;
+	audio_play_sound(sound_sfx_purchase,10,false);
 }
 else if(!object_game_controls.action_1_pressed 
 	&& action_1pressed)
