@@ -4,9 +4,13 @@ function init_globals(){
 	global.pub_challenges = 0;
 	global.pub_beaten = false;
 	global.battle_beaten = false;
+	global.shop_beaten = false;
 	
 	//Bug stuff.
 	global.bugs_state=[];
 	global.bugs_x = [];
 	global.bugs_y = [];
+	
+	//Money
+	global.money = 100;
 }

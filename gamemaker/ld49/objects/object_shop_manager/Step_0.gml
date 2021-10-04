@@ -1,4 +1,8 @@
-if (object_game_controls.action_1_pressed 
+if(global.shop_beaten)
+{
+	sprite_index = sprite_gus_dies;	
+}
+else if (object_game_controls.action_1_pressed 
 	&& distance_to_object(object_player) < 5
 	&& !instance_exists(object_textbox)
 	&& !dialog_running)

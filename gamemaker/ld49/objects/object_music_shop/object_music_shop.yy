@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprite_shop_item",
-    "path": "sprites/sprite_shop_item/sprite_shop_item.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,17 +20,15 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "shop",
-    "path": "folders/Objects/shop.yy",
+    "name": "music",
+    "path": "folders/Objects/music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_shop_item",
+  "name": "object_music_shop",
   "tags": [],
   "resourceType": "GMObject",
 }
