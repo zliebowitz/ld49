@@ -149,7 +149,8 @@ else
 for (var i = 0; i < instance_number(object_enemy_base); ++i;)
 {
 	var enemy = instance_find(object_enemy_base,i);
-	if(place_meeting(x,y, enemy) && enemy.object_index != object_enemy_face)
+	if(place_meeting(x,y, enemy) 
+	&& !enemy.ignore_player)
 	{
 		if(state == "attack")
 		{
@@ -160,9 +161,27 @@ for (var i = 0; i < instance_number(object_enemy_base); ++i;)
 			state = "init_knockback";
 			var player_target_x = enemy.x - x;
 			var player_target_y = enemy.y - y;
-
-			knockback_direction_x = sign(player_target_x)*-1;
-			knockback_direction_y = sign(player_target_y)*-1;
+			
+			var left_delta = abs(enemy.bbox_right - bbox_left);
+			var right_delta = abs(enemy.bbox_left - bbox_right);
+			var up_delta = abs(bbox_top - enemy.bbox_bottom);
+			var down_delta = abs(enemy.bbox_top - bbox_bottom);
+			
+			var x_delta = min(left_delta, right_delta);
+			var y_delta = min(up_delta, down_delta);
+			
+			if(x_delta <= y_delta)
+			{
+				knockback_direction_x = sign(player_target_x)*-1;
+				knockback_direction_y = 0;
+			}
+			else
+			{
+				knockback_direction_x = 0;
+				knockback_direction_y = sign(player_target_y)*-1;
+			}
+			
+			
 
 		}
 	}

@@ -30,26 +30,29 @@ function script_player_direction_left()
 
 function script_player_direction()
 {
-	switch(sprite_index)
+	with(object_player)
 	{
-		case sprite_avatar_walking_up:
-		case sprite_avatar_idle_up:
-		case sprite_avatar_attacking_up:
-			return player_directions.up;
-		case sprite_avatar_walking_down:
-		case sprite_avatar_idle_down:
-		case sprite_avatar_attacking_down:
-			return player_directions.down;
-		case sprite_avatar_walking_right:
-		case sprite_avatar_idle_right:
-		case sprite_avatar_attacking_right:
-			if(image_xscale < 0)
-			{
-				return player_directions.left;
-			}
-			else
-			{
-				return player_directions.right;
-			}
+		switch(sprite_index)
+		{
+			case sprite_avatar_walking_up:
+			case sprite_avatar_idle_up:
+			case sprite_avatar_attacking_up:
+				return player_directions.up;
+			case sprite_avatar_walking_down:
+			case sprite_avatar_idle_down:
+			case sprite_avatar_attacking_down:
+				return player_directions.down;
+			case sprite_avatar_walking_right:
+			case sprite_avatar_idle_right:
+			case sprite_avatar_attacking_right:
+				if(image_xscale < 0)
+				{
+					return player_directions.left;
+				}
+				else
+				{
+					return player_directions.right;
+				}
+		}
 	}
 }

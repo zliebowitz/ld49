@@ -1,3 +1,5 @@
+
+
 if(state == "idle")
 {
 	if(enemy_ai_type == enemy_ai_types.seek)
@@ -11,8 +13,16 @@ if(state == "idle")
 }
 else if(state == "init_wander")
 {
-	target_x = random(room_width)-x;
-	target_y = random(room_height)-y;
+	if(random(1))
+	{
+		target_x = random(room_width)-x;
+		target_y = 0;
+	}
+	else
+	{
+		target_x =0;
+		target_y = random(room_height)-y;
+	}
 	
 	state = "wander"
 	alarm[0] = wander_frames;
@@ -62,8 +72,16 @@ else if(state == "move")
 else if (state == "knockback")
 {
 	
-	target_x = object_player.x-x;
-	target_y = object_player.y-y;
+	if(script_player_direction_left() || script_player_direction_right())
+	{
+		target_x = object_player.x-x;
+		target_y = 0;
+	}
+	else
+	{
+		target_x = 0;
+		target_y = object_player.y-y;
+	}
 
 	var direction_x = sign(target_x)*-1;
 	var direction_y = sign(target_y)*-1;
@@ -71,11 +89,40 @@ else if (state == "knockback")
 	x += (direction_x*move_speed*5);
 	y += (direction_y*move_speed*5);
 }
-
-
-if (place_meeting(x, y, object_fence) && !has_glitched)
+else if( state == "bugged" )
 {
-	has_glitched = true;
-	sprite_index = faceless_enemy_sprite;
-	instance_create_depth(x, y, -50, object_enemy_face);
+	
+	ignore_player = 1;
+}
+
+
+if(state != "bugged")
+{
+
+	if (place_meeting(x, y, object_fence) && !has_glitched)
+	{
+		if(state == "knockback")
+		{
+			has_glitched = true;
+			sprite_index = faceless_enemy_sprite;
+			instance_create_depth(x, y, -50, object_enemy_face);
+			state = "bugged"; 
+			alarm[0] = -1;
+		}
+		else
+		{
+			if(!colided)
+			{
+				alarm[0] = -1;
+				colided = true;
+				state = "idle"	
+				x = xprevious;
+				y = yprevious;
+			}
+		}
+	}
+	else if(!place_meeting(x, y, object_fence) && colided)
+	{
+		colided= false;
+	}
 }

@@ -5,3 +5,5 @@
 event_inherited();
 
 enemy_ai_type = enemy_ai_types.seek;
+
+ignore_player = 1;

@@ -1,3 +1,4 @@
+event_inherited();
 
 enum enemy_ai_types
 {
@@ -17,4 +18,4 @@ wander_frames = 100;
 has_glitched = false;
 faceless_enemy_sprite = sprite_enemy_red_faceless;
 
-
+colided = false;

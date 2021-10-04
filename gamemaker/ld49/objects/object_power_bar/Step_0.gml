@@ -8,7 +8,7 @@ steps = steps +1;
 if(slave_to_player == 1)
 {
 	bar_x = object_player.x - (bar_width/2.0) 
-	bar_y = object_player.bbox_top - player_y_offset;
+	bar_y = object_player.y-object_player.sprite_height - player_y_offset;
 }
 
 
