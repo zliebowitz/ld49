@@ -5,12 +5,19 @@ if ((object_game_controls.action_1_pressed && !action1_pressed) && distance_to_o
 	&& !instance_exists(object_fishing_bar))
 {
 	var textbox = instance_create_depth(0, 0, 20, object_textbox);
-	ds_queue_enqueue(textbox.textQueue, "Well howdy there, partner!")
-	ds_queue_enqueue(textbox.textQueue, "Y'all reck'n this foundangled textbox be \nworking?")
-	ds_queue_enqueue(textbox.textQueue, "|||||||||||||||||||| ||||||||||||||||||||")
-	ds_queue_enqueue(textbox.textQueue, "00000000000000000000 00000000000000000000")
-	ds_queue_enqueue(textbox.textQueue, "Yaaaaas. It doesssss.")
-	ds_queue_enqueue(textbox.textQueue, id);
+	
+	switch(dialog_count)
+	{
+		case 0:
+			ds_queue_enqueue(textbox.textQueue, "Arr! You there.\nTry ye hand, in me fishing hole, eh\nTake what ye dare!, give nothing back!")
+			break;
+		default:
+			ds_queue_enqueue(textbox.textQueue, "Shiver me timbers! You missed ye monster!\nDeep is me anckor!\nThe fishies always wait for me sinkers")
+			break;
+	}
+	
+	ds_queue_enqueue(textbox.textQueue, id)
+	dialog_count += 1;
 	dialog_running = true;
 }
 else if(!object_game_controls.action_1_pressed)
