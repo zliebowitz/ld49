@@ -6,6 +6,7 @@
     {"id":{"name":"script_play_music","path":"scripts/script_play_music/script_play_music.yy",},"order":2,},
     {"id":{"name":"sound_sfx_glitch","path":"sounds/sound_sfx_glitch/sound_sfx_glitch.yy",},"order":4,},
     {"id":{"name":"sprite_title","path":"sprites/sprite_title/sprite_title.yy",},"order":2,},
+    {"id":{"name":"sprite_avatar_idle_down_grinning","path":"sprites/sprite_avatar_idle_down_grinning/sprite_avatar_idle_down_grinning.yy",},"order":13,},
     {"id":{"name":"sprite_avatar_attacking_down","path":"sprites/sprite_avatar_attacking_down/sprite_avatar_attacking_down.yy",},"order":8,},
     {"id":{"name":"object_music_silence","path":"objects/object_music_silence/object_music_silence.yy",},"order":2,},
     {"id":{"name":"object_enemy_base","path":"objects/object_enemy_base/object_enemy_base.yy",},"order":1,},
@@ -86,6 +87,7 @@
     {"id":{"name":"sprite_title_background","path":"sprites/sprite_title_background/sprite_title_background.yy",},"order":3,},
     {"id":{"name":"sprite_title_glitch_1","path":"sprites/sprite_title_glitch_1/sprite_title_glitch_1.yy",},"order":5,},
     {"id":{"name":"sprite_button_title_screen","path":"sprites/sprite_button_title_screen/sprite_button_title_screen.yy",},"order":3,},
+    {"id":{"name":"sprite_jump_scare_dialog_0","path":"sprites/sprite_jump_scare_dialog_0/sprite_jump_scare_dialog_0.yy",},"order":0,},
     {"id":{"name":"sprite_enemy_red_faceless","path":"sprites/sprite_enemy_red_faceless/sprite_enemy_red_faceless.yy",},"order":4,},
     {"id":{"name":"sprite_tile_set_0","path":"sprites/sprite_tile_set_0/sprite_tile_set_0.yy",},"order":0,},
     {"id":{"name":"sprite_gus","path":"sprites/sprite_gus/sprite_gus.yy",},"order":6,},
@@ -191,6 +193,7 @@
     {"folderPath":"folders/Scripts/player.yy","order":4,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/shop.yy","order":19,"resourceVersion":"1.0","name":"shop","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/shop.yy","order":16,"resourceVersion":"1.0","name":"shop","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/jump_scare.yy","order":21,"resourceVersion":"1.0","name":"jump_scare","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
