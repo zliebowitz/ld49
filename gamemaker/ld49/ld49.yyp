@@ -100,6 +100,7 @@
     {"id":{"name":"sprite_title_glitch_1","path":"sprites/sprite_title_glitch_1/sprite_title_glitch_1.yy",},"order":5,},
     {"id":{"name":"sprite_button_title_screen","path":"sprites/sprite_button_title_screen/sprite_button_title_screen.yy",},"order":3,},
     {"id":{"name":"sprite_jump_scare_dialog_0","path":"sprites/sprite_jump_scare_dialog_0/sprite_jump_scare_dialog_0.yy",},"order":0,},
+    {"id":{"name":"sprite_controls","path":"sprites/sprite_controls/sprite_controls.yy",},"order":25,},
     {"id":{"name":"sprite_enemy_red_faceless","path":"sprites/sprite_enemy_red_faceless/sprite_enemy_red_faceless.yy",},"order":4,},
     {"id":{"name":"sprite_tile_set_0","path":"sprites/sprite_tile_set_0/sprite_tile_set_0.yy",},"order":0,},
     {"id":{"name":"sprite_gus","path":"sprites/sprite_gus/sprite_gus.yy",},"order":6,},
