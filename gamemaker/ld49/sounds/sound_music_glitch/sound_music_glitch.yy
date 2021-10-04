@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_music_glitch.wav",
-  "duration": 24.0025616,
+  "duration": 6.401156,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
