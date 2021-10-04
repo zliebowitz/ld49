@@ -13,3 +13,14 @@ else if(!object_game_controls.action_1_pressed)
 {
 	action1_pressed = false;
 }
+
+if (object_game_controls.action_2_pressed)
+	fishing_glitched = true;
+
+if (fishing_glitched && x < 600)
+{
+	x += 1.37;
+	y -= .13;
+	sprite_index = sprite_wallace_sad;
+	instance_create_depth(x, y, -50, object_wallace_sad);
+}
