@@ -19,7 +19,7 @@ else if (object_game_controls.action_1_pressed
 			break;
 		default:
 			ds_queue_enqueue(textbox.textQueue, "What are you waiting for?");
-			ds_queue_enqueue(textbox.textQueue, "Take advantage of our\noverflow of stacks sale\nToday only!");
+			ds_queue_enqueue(textbox.textQueue, "Take advantage of our\noverflow of stacks sale!\nToday only!");
 			break;
 	}
 		dialog_count += 1;
