@@ -67,6 +67,7 @@
     {"id":{"name":"sprite_warp","path":"sprites/sprite_warp/sprite_warp.yy",},"order":10,},
     {"id":{"name":"sprite_enemy_blue","path":"sprites/sprite_enemy_blue/sprite_enemy_blue.yy",},"order":0,},
     {"id":{"name":"object_recenter_window","path":"objects/object_recenter_window/object_recenter_window.yy",},"order":3,},
+    {"id":{"name":"sprite_title_background","path":"sprites/sprite_title_background/sprite_title_background.yy",},"order":3,},
     {"id":{"name":"sprite_button_title_screen","path":"sprites/sprite_button_title_screen/sprite_button_title_screen.yy",},"order":3,},
     {"id":{"name":"sprite_enemy_red_faceless","path":"sprites/sprite_enemy_red_faceless/sprite_enemy_red_faceless.yy",},"order":4,},
     {"id":{"name":"sprite_tile_set_0","path":"sprites/sprite_tile_set_0/sprite_tile_set_0.yy",},"order":0,},
