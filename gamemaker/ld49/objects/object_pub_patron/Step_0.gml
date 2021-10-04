@@ -38,7 +38,7 @@ if (object_game_controls.action_1_pressed
 }
 else if(!instance_exists(object_textbox) 
 	&& dialog_running
-	&& alarm[0] == -1)
+	&& alarm[11] == -1)
 {
-	alarm[15] = 30;
+	alarm[11] = 30;
 }
