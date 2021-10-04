@@ -71,6 +71,7 @@
     {"id":{"name":"sprite_button_resume","path":"sprites/sprite_button_resume/sprite_button_resume.yy",},"order":2,},
     {"id":{"name":"sound_music_title","path":"sounds/sound_music_title/sound_music_title.yy",},"order":0,},
     {"id":{"name":"object_menu_start_game","path":"objects/object_menu_start_game/object_menu_start_game.yy",},"order":1,},
+    {"id":{"name":"sound_sfx_fish_power","path":"sounds/sound_sfx_fish_power/sound_sfx_fish_power.yy",},"order":2,},
     {"id":{"name":"sprite_warp","path":"sprites/sprite_warp/sprite_warp.yy",},"order":10,},
     {"id":{"name":"sprite_enemy_blue","path":"sprites/sprite_enemy_blue/sprite_enemy_blue.yy",},"order":0,},
     {"id":{"name":"object_music_village","path":"objects/object_music_village/object_music_village.yy",},"order":7,},
