@@ -29,7 +29,6 @@
             {"propertyId":{"name":"target_x","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"460","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"target_y","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"128","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":80.0,"resourceVersion":"1.0","name":"inst_66E9FD73","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"object_talkingman","path":"objects/object_talkingman/object_talkingman.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":88.0,"resourceVersion":"1.0","name":"inst_5F3184BA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"target_room","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"room_pub","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"target_x","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"240","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -102,7 +101,6 @@
   "instanceCreationOrder": [
     {"name":"inst_627C5AFA_1","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_66E9FD73","path":"rooms/room_village/room_village.yy",},
-    {"name":"inst_5F3184BA","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_4A0D8473","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_21DBA89","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_7228B628","path":"rooms/room_village/room_village.yy",},

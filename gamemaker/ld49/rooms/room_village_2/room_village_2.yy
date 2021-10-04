@@ -30,6 +30,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fence","path":"objects/object_fence/object_fence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":24.0,"resourceVersion":"1.0","name":"inst_4FC61DAA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fence","path":"objects/object_fence/object_fence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.25,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":-8.0,"resourceVersion":"1.0","name":"inst_4F9FA52","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fence","path":"objects/object_fence/object_fence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.75,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":280.0,"y":-16.0,"resourceVersion":"1.0","name":"inst_643DD54C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"The patient fisherman catches all.","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":328.0,"y":32.0,"resourceVersion":"1.0","name":"inst_7B2AEA77","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_power_bar","path":"objects/object_power_bar/object_power_bar.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-56.0,"y":32.0,"resourceVersion":"1.0","name":"inst_24680283_1","tags":[],"resourceType":"GMRInstance",},
@@ -109,6 +112,7 @@
     {"name":"inst_4F9FA52","path":"rooms/room_village_2/room_village_2.yy",},
     {"name":"inst_643DD54C","path":"rooms/room_village_2/room_village_2.yy",},
     {"name":"inst_588056B6","path":"rooms/room_village_2/room_village_2.yy",},
+    {"name":"inst_7B2AEA77","path":"rooms/room_village_2/room_village_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

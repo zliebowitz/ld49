@@ -66,6 +66,7 @@
     {"id":{"name":"sprite_bar_patron","path":"sprites/sprite_bar_patron/sprite_bar_patron.yy",},"order":4,},
     {"id":{"name":"object_textbox","path":"objects/object_textbox/object_textbox.yy",},"order":9,},
     {"id":{"name":"sound_music_glitch","path":"sounds/sound_music_glitch/sound_music_glitch.yy",},"order":4,},
+    {"id":{"name":"sprite_avatar_fishing","path":"sprites/sprite_avatar_fishing/sprite_avatar_fishing.yy",},"order":10,},
     {"id":{"name":"sprite_textbox","path":"sprites/sprite_textbox/sprite_textbox.yy",},"order":9,},
     {"id":{"name":"sprite_button_resume","path":"sprites/sprite_button_resume/sprite_button_resume.yy",},"order":2,},
     {"id":{"name":"sound_music_title","path":"sounds/sound_music_title/sound_music_title.yy",},"order":0,},
