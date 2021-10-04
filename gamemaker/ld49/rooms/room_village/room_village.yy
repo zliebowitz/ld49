@@ -68,6 +68,21 @@
             {"propertyId":{"name":"target_y","path":"objects/object_warp/object_warp.yy",},"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"value":"256","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"object_warp","path":"objects/object_warp/object_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_56A6FE70","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fence","path":"objects/object_fence/object_fence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-48.0,"y":240.0,"resourceVersion":"1.0","name":"inst_3FB4DAE4","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"Bee's Knees Tavern","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":424.0,"y":192.0,"resourceVersion":"1.0","name":"inst_3816082A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"Digital Village Pond","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":232.0,"resourceVersion":"1.0","name":"inst_31BEAD13","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"Town Shoppe","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":296.0,"y":88.0,"resourceVersion":"1.0","name":"inst_569382F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"Exit","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":168.0,"resourceVersion":"1.0","name":"inst_79E39E3C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"Have you tried running forwards and\\nbackwards at the same time?","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":216.0,"y":144.0,"resourceVersion":"1.0","name":"inst_33714D14","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tile_set_3","path":"tilesets/tile_set_3/tile_set_3.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":30,"SerialiseHeight":16,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,2147483648,2147483648,2147483648,2147483648,2147483648,28,29,
@@ -141,6 +156,11 @@
     {"name":"inst_61BC452F","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_CC5A5A4","path":"rooms/room_village/room_village.yy",},
     {"name":"inst_55EDA24E","path":"rooms/room_village/room_village.yy",},
+    {"name":"inst_3816082A","path":"rooms/room_village/room_village.yy",},
+    {"name":"inst_31BEAD13","path":"rooms/room_village/room_village.yy",},
+    {"name":"inst_569382F","path":"rooms/room_village/room_village.yy",},
+    {"name":"inst_79E39E3C","path":"rooms/room_village/room_village.yy",},
+    {"name":"inst_33714D14","path":"rooms/room_village/room_village.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
