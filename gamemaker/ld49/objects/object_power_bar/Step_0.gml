@@ -51,15 +51,18 @@ if(bar_type == bar_types.versus)
 	}
 }
 
-//Testing it out.
-if (object_game_controls.action_1_pressed && (allow_cheat || !action1_pressed))
+if(alarm[5] == -1)
 {
-	action1_pressed = true
-	event_user(0);
-}
-else if(!object_game_controls.action_1_pressed)
-{
-	action1_pressed = false;
+	//Testing it out.
+	if (object_game_controls.action_1_pressed && (allow_cheat || !action1_pressed))
+	{
+		action1_pressed = true
+		event_user(0);
+	}
+	else if(!object_game_controls.action_1_pressed)
+	{
+		action1_pressed = false;
+	}
 }
 
 

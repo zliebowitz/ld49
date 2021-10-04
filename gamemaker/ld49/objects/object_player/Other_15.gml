@@ -3,4 +3,4 @@
 
 sprite_index = sprite_avatar_fishing;
 
-// TODO: freeze movement
+instance_create_depth(x,y,0,object_fishing_bar);

@@ -17,6 +17,9 @@ audio_play_sound(sound_sfx_fish_power,10, true);
 cycles_to_glitch = 20;
 previous_bar_state = bar_state;
 
+action_1pressed = true;
+alarm[5]=0.5*room_speed;
+
 
 
 
