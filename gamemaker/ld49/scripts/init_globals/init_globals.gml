@@ -3,7 +3,7 @@
 function init_globals(){
 	global.pub_challenges = 0;
 	global.pub_beaten = false;
-	
+	global.battle_beaten = false;
 	
 	//Bug stuff.
 	global.bugs_state=[];

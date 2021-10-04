@@ -11,7 +11,7 @@ else
 
 if (global.pub_beaten)
 {
-	audio_stop_all();
+	
 	sprite_index = sprite_beethany_bug;
 	if (random(1) < .25)
 	{
