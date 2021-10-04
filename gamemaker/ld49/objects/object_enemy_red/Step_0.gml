@@ -103,11 +103,7 @@ if(state != "bugged")
 	{
 		if(state == "knockback")
 		{
-			has_glitched = true;
-			sprite_index = faceless_enemy_sprite;
-			instance_create_depth(x, y, -50, object_enemy_face);
-			state = "bugged"; 
-			alarm[0] = -1;
+			event_user(1);//glitched
 		}
 		else
 		{
