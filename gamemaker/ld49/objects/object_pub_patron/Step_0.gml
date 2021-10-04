@@ -31,7 +31,7 @@ if (object_game_controls.action_1_pressed
 	{
 		ds_queue_enqueue(global.textQueue, "Can't HIC HIC HIC HIC HIC\nhold HIC HIC HIC your drink?");
 	}
-	ds_queue_enqueue(global.textQueue, "Now let's fight. Mash your action\nbutton to drink and win.");
+	ds_queue_enqueue(global.textQueue, "Now let's drink. Mash your action\nbutton to drink and win.");
 	ds_queue_enqueue(global.textQueue, id);
 	instance_create_depth(0, 0, 20, object_textbox);
 	dialog_running = true;
