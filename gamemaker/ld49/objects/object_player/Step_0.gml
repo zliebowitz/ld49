@@ -4,6 +4,11 @@
 hspeed = 0;
 vspeed = 0;
 
+if (instance_exists(object_power_bar))
+{
+	return;
+}
+
 if(state == "init_knockback")
 {
 	if (script_player_direction_up())
