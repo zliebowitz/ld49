@@ -12,10 +12,10 @@ else if (object_game_controls.action_1_pressed
 	{
 		case 0:
 			ds_queue_enqueue(textbox.textQueue, "Hello, walking through that door\nis the smartest thing\nyou've done today!");
-			ds_queue_enqueue(textbox.textQueue, "You can't buy happiness,\nbut you can buy these items\nits kind of the same thing!");
+			ds_queue_enqueue(textbox.textQueue, "You can't buy happiness,\nbut you can buy these items!\nIt's kind of the same thing!");
 			break;
 		case 1:
-			ds_queue_enqueue(textbox.textQueue, "Don't wait til tomorrow,\nthe items you see today,\nsomeone already saw yesterday\nand will be back today!");
+			ds_queue_enqueue(textbox.textQueue, "Don't wait 'til tomorrow!\nThe items you see today\nsomeone already saw yesterday...\nAnd will be back today!");
 			break;
 		default:
 			ds_queue_enqueue(textbox.textQueue, "What are you waiting for?");
