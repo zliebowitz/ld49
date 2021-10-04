@@ -78,19 +78,23 @@ if (global.controller_id != -1)
 	action_2_pressed =  gamepad_button_check(global.controller_id, gp_face2);
 }
 
-if (keyboard_check(left_key))
+if (keyboard_check(left_key)
+	|| keyboard_check(ord("A")))
 {
 	left_pressed = true;
 }
-if (keyboard_check(right_key))
+if (keyboard_check(right_key)
+	|| keyboard_check(ord("D")))
 {
 	right_pressed = true;
 }
-if (keyboard_check(down_key))
+if (keyboard_check(down_key)
+	|| keyboard_check(ord("S")))
 {
 	down_pressed = true;
 }
-if (keyboard_check(up_key))
+if (keyboard_check(up_key)
+	|| keyboard_check(ord("W")))
 {
 	up_pressed = true;
 }

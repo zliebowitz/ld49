@@ -79,21 +79,25 @@ if (keyboard_check(pause_key))
 {
 	pause_pressed = true;
 }
-if (keyboard_check(up_key))
-{
-	up_pressed = true;
-}
-if (keyboard_check(down_key))
-{
-	down_pressed = true;
-}
-if (keyboard_check(left_key))
+if (keyboard_check(left_key)
+	|| keyboard_check(ord("A")))
 {
 	left_pressed = true;
 }
-if (keyboard_check(right_key))
+if (keyboard_check(right_key)
+	|| keyboard_check(ord("D")))
 {
 	right_pressed = true;
+}
+if (keyboard_check(down_key)
+	|| keyboard_check(ord("S")))
+{
+	down_pressed = true;
+}
+if (keyboard_check(up_key)
+	|| keyboard_check(ord("W")))
+{
+	up_pressed = true;
 }
 if (keyboard_check(submit_key))
 {
