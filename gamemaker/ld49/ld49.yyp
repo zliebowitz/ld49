@@ -113,6 +113,7 @@
     {"id":{"name":"sprite_sign","path":"sprites/sprite_sign/sprite_sign.yy",},"order":20,},
     {"id":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"order":1,},
     {"id":{"name":"tile_set_0","path":"tilesets/tile_set_0/tile_set_0.yy",},"order":0,},
+    {"id":{"name":"sprite_jump_scare_scary_face","path":"sprites/sprite_jump_scare_scary_face/sprite_jump_scare_scary_face.yy",},"order":8,},
     {"id":{"name":"sprite_button_selector","path":"sprites/sprite_button_selector/sprite_button_selector.yy",},"order":4,},
     {"id":{"name":"object_pub_patron","path":"objects/object_pub_patron/object_pub_patron.yy",},"order":11,},
     {"id":{"name":"room_village","path":"rooms/room_village/room_village.yy",},"order":3,},
