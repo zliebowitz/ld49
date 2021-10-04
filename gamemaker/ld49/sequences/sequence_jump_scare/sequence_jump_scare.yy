@@ -8,7 +8,11 @@
   "volume": 1.0,
   "length": 2700.0,
   "events": {
-    "Keyframes": [],
+    "Keyframes": [
+      {"id":"fa1a9eba-b326-4f1a-af2a-40a114344632","Key":2700.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+              "EndJumpScare",
+            ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
+    ],
     "resourceVersion": "1.0",
     "resourceType": "KeyframeStore<MessageEventKeyframe>",
   },
