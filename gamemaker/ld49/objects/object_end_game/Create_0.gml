@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_create_depth(240, 1408, depth, object_end_game);
+audio_play_sound(sound_sfx_static_3, 10, false);
+alarm[0] = 3 * room_speed;
