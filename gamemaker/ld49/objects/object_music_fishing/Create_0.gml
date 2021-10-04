@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-price = 5;
-action_1pressed = false;
 
+script_play_music(sound_music_shop, 0);
 
-
-
-state = "running";
+endstep = false;

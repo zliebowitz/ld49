@@ -1,5 +1,9 @@
 /// @description Inse9999 description here
 // You can write your code in this editor
+if(global.bill == -1)
+{
+	state = "done";	
+}
 
 if(state = "done")
 {
@@ -11,10 +15,10 @@ if (object_game_controls.action_1_pressed
 	&& distance_to_object(object_player) < 5
 	&& !action_1pressed)
 {
-	object_shop_manager.bill += price;
-	if (object_shop_manager.bill > 999)
+	global.bill += price;
+	if (global.bill > 999)
 	{
-		object_shop_manager.bill = -1;
+		global.bill = -1;
 		state = "done";
 		global.shop_beaten = true;
 		

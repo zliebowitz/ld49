@@ -103,6 +103,7 @@
     {"id":{"name":"object_talkingman","path":"objects/object_talkingman/object_talkingman.yy",},"order":10,},
     {"id":{"name":"tile_set_1","path":"tilesets/tile_set_1/tile_set_1.yy",},"order":1,},
     {"id":{"name":"sprite_pause_menu_background","path":"sprites/sprite_pause_menu_background/sprite_pause_menu_background.yy",},"order":0,},
+    {"id":{"name":"object_music_fishing","path":"objects/object_music_fishing/object_music_fishing.yy",},"order":6,},
     {"id":{"name":"object_music_pub","path":"objects/object_music_pub/object_music_pub.yy",},"order":3,},
     {"id":{"name":"object_menu_title_screen","path":"objects/object_menu_title_screen/object_menu_title_screen.yy",},"order":6,},
     {"id":{"name":"sprite_shop_item","path":"sprites/sprite_shop_item/sprite_shop_item.yy",},"order":1,},

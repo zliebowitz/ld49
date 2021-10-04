@@ -5,7 +5,7 @@ function init_globals(){
 	global.pub_beaten = false;
 	global.battle_beaten = false;
 	global.shop_beaten = false;
-	
+	global.fish_beaten = false;
 	//Bug stuff.
 	global.bugs_state=[];
 	global.bugs_x = [];
@@ -13,4 +13,5 @@ function init_globals(){
 	
 	//Money
 	global.money = 100;
+	global.bill = 0;
 }

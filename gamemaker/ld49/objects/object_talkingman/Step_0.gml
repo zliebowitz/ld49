@@ -24,8 +24,10 @@ if(!instance_exists(object_textbox)
 	
 }
 
-if (object_game_controls.action_2_pressed)
-	fishing_glitched = true;
+if (object_game_controls.action_2_pressed && !fishing_glitched)
+{
+	event_user(0);
+}
 
 if (fishing_glitched && x < 600)
 {
