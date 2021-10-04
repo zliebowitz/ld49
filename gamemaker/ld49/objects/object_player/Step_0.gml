@@ -51,6 +51,7 @@ else if(state == "init_attack")
 	}
 		
 	state = "attack"
+	audio_play_sound(sound_sfx_swing,10,false);
 	
 }
 else if (state == "attack")
