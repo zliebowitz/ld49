@@ -39,6 +39,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_in","path":"objects/object_fade_in/object_fade_in.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":-24.0,"resourceVersion":"1.0","name":"inst_5F88DA85","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_fade_out","path":"objects/object_fade_out/object_fade_out.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":312.0,"y":-24.0,"resourceVersion":"1.0","name":"inst_335BD9AB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_music_monster_battle","path":"objects/object_music_monster_battle/object_music_monster_battle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-24.0,"y":16.0,"resourceVersion":"1.0","name":"inst_721C3B44","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/object_sign/object_sign.yy",},"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"value":"The sign, in a child's handwriting, reads:\\nThe bugs act weird near the fence.","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"object_sign","path":"objects/object_sign/object_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":232.0,"y":48.0,"resourceVersion":"1.0","name":"inst_356BD8BC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tile_set_0","path":"tilesets/tile_set_0/tile_set_0.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":30,"SerialiseHeight":16,"TileSerialiseData":[
 52,52,52,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,26,26,
@@ -85,6 +88,7 @@
     {"name":"inst_35B528ED","path":"rooms/room_world/room_world.yy",},
     {"name":"inst_471D2711","path":"rooms/room_world/room_world.yy",},
     {"name":"inst_326FC8E9","path":"rooms/room_world/room_world.yy",},
+    {"name":"inst_356BD8BC","path":"rooms/room_world/room_world.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
