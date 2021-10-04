@@ -8,6 +8,7 @@ if ((object_game_controls.action_1_pressed && !action1_pressed) && distance_to_o
 	ds_queue_enqueue(global.textQueue, "|||||||||||||||||||| ||||||||||||||||||||")
 	ds_queue_enqueue(global.textQueue, "00000000000000000000 00000000000000000000")
 	ds_queue_enqueue(global.textQueue, "Yaaaaas. It doesssss.")
+	ds_queue_enqueue(global.textQueue, id);
 	instance_create_depth(0, 0, 20, object_textbox)
 	dialog_running = true;
 }
