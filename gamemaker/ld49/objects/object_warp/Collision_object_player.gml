@@ -5,6 +5,15 @@ if(!global.warp)
 	global.warp = true;
 	global.target_x = target_x;
 	global.target_y = target_y;
+	
+	if(global.pub_beaten &&
+		global.fish_beaten &&
+		global.shop_beaten &&
+		global.battle_beaten)
+	{
+		target_room = room_jump_scare;	
+	}
+	
 	object_fade_out.room_id = target_room;
 	
 	if(room == room_world)
@@ -18,5 +27,7 @@ if(!global.warp)
 			
 		}
 	}
+	
+	
 	
 }
