@@ -1,4 +1,4 @@
-trigger_talk = false;
+dialog_running = false;
 
 action1_pressed = false;
 
