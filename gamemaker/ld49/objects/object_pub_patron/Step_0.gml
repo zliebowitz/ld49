@@ -24,13 +24,13 @@ if (object_game_controls.action_1_pressed
 		ds_queue_enqueue(textbox.textQueue, "It just may be HIC time for...");
 		ds_queue_enqueue(textbox.textQueue, "A DRINKING GAME!");
 	}
-	else if (challenges < 3)
+	else if (challenges < 2)
 	{
 		ds_queue_enqueue(textbox.textQueue, "Came back HIC, for more?");
 	}
 	else
 	{
-		ds_queue_enqueue(textbox.textQueue, "Can't HIC HIC HIC HIC HIC\nhold HIC HIC HIC your drink?");
+		ds_queue_enqueue(textbox.textQueue, "Can't HIC HIC HIC HIC HIC\nHOLD HIC HIC HIC your drink?");
 	}
 	ds_queue_enqueue(textbox.textQueue, "Now let's drink. Mash your action\nbutton to drink and win.");
 	ds_queue_enqueue(textbox.textQueue, id);
@@ -38,7 +38,8 @@ if (object_game_controls.action_1_pressed
 }
 else if(!instance_exists(object_textbox) 
 	&& dialog_running
-	&& alarm[11] == -1)
+	&& alarm[11] == -1
+	&& alarm[0] == -1)
 {
-	alarm[11] = 30;
+	alarm[11] = room_speed * 0.5;
 }
