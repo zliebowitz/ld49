@@ -9,10 +9,10 @@ if ((object_game_controls.action_1_pressed && !action1_pressed) && distance_to_o
 	switch(dialog_count)
 	{
 		case 0:
-			ds_queue_enqueue(textbox.textQueue, "Arr! You there.\nTry ye hand, in me fishing hole, eh\nTake what ye dare!, give nothing back!")
+			ds_queue_enqueue(textbox.textQueue, "Arr! You there.\nTry ye hand, in me fishing hole, eh!\nTake what ye dare!, give nothing back!")
 			break;
 		default:
-			ds_queue_enqueue(textbox.textQueue, "Shiver me timbers! You missed ye monster!\nDeep is me anckor!\nThe fishies always wait for me sinkers")
+			ds_queue_enqueue(textbox.textQueue, "Shiver me timbers! You missed ye monster!\nDeep is me anchor!\nThe fishies always wait for me sinkers")
 			break;
 	}
 	
