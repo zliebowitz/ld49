@@ -19,7 +19,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_end_credits","path":"objects/object_end_credits/object_end_credits.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":232.0,"y":112.0,"resourceVersion":"1.0","name":"inst_19CDEF50","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"- Programming -\\nTravis Bender\\nStephen Hoskins\\nZachary Liebowitz\\nJosh Luoni","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"- Programming -\\nTravis Bender\\nStephen Hoskins\\nZachary Liebowitz\\nJoshua Luoni","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":232.0,"y":368.0,"resourceVersion":"1.0","name":"inst_40BC23A3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"- Art -\\nTravis Bender\\nStephen Hoskins","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -28,7 +28,7 @@
             {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"- Sound & Music -\\nStephen Hoskins","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":232.0,"y":880.0,"resourceVersion":"1.0","name":"inst_51841DA5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
-            {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"- Writing -\\nTravis Bender\\nStephen Hoskins\\nZachary Liebowitz\\nJosh Luoni","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"- Writing -\\nTravis Bender\\nStephen Hoskins\\nZachary Liebowitz\\nJoshua Luoni","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":232.0,"y":1136.0,"resourceVersion":"1.0","name":"inst_1F038767","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"text_string","path":"objects/object_text/object_text.yy",},"objectId":{"name":"object_text","path":"objects/object_text/object_text.yy",},"value":"Thank you for playing!","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -36,7 +36,7 @@
       ],"visible":true,"depth":50,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/room_village/RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/room_jump_scare/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_19CDEF50","path":"rooms/room_jump_scare/room_jump_scare.yy",},
