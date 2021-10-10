@@ -15,7 +15,7 @@ bar_type = bar_types.versus;
 
 power_percent = 50;
 power_increment = 1;
-target_percent = 50;
+target_percent = 75;
 versus_frames_between_tap = 10
 versus_increment=1;
 steps = 0;

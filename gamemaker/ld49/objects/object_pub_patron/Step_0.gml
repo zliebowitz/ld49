@@ -30,7 +30,7 @@ if (object_game_controls.action_1_pressed
 	}
 	else
 	{
-		ds_queue_enqueue(textbox.textQueue, "Can't HIC HIC HIC HIC HIC\nHOLD HIC HIC HIC your drink?");
+		ds_queue_enqueue(textbox.textQueue, "Can't HIC HIC holllld HIC HIC HIC\nhoooold HIC HIC HIC hold your drink?");
 	}
 	ds_queue_enqueue(textbox.textQueue, "Now let's drink. Mash your action\nbutton to drink and win.");
 	ds_queue_enqueue(textbox.textQueue, id);
